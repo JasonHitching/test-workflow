@@ -6,10 +6,6 @@ class ArrayManipulator {
   addItem(bogusItem) {
     this.bogusArr.push(bogusItem);
   }
-
-  getBogusArrSize() {
-    return this.bogusArr.length;
-  }
 }
 
 module.exports = ArrayManipulator;
