@@ -6,7 +6,6 @@ describe("testing bogus array size", () => {
     const manipulator = new ArrayManipulator();
 
     manipulator.addItem("hi");
-    manipulator.addItem("bye");
     expect(manipulator.bogusArr.length).to.eq(1);
   });
 });
