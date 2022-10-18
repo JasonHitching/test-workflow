@@ -1,4 +1,4 @@
-name: Node.js CI
+name: test-workflow CI
 
 on:
   push:
